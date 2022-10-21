@@ -123,3 +123,4 @@ function updateExpirationDate(date){
     const ccExpirationDate = document.querySelector(".cc-expiration .value")
     ccExpirationDate.innerText = date.length === 0 ? "02/32" : date
 }
+
